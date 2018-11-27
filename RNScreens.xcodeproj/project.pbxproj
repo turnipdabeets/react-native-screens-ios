@@ -29,6 +29,8 @@
 		448078F02114595900280661 /* RNSScreenContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSScreenContainer.h; sourceTree = "<group>"; };
 		448078F12114595900280661 /* RNSScreenContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSScreenContainer.m; sourceTree = "<group>"; };
 		448078F42114595900280661 /* RNSScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSScreen.m; sourceTree = "<group>"; };
+		896839F221ADE4ED00FB849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../RNScreens/RNScreens/Info.plist; sourceTree = "<group>"; };
+		896839F321ADE4ED00FB849D /* RNScreens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNScreens.h; path = ../../../RNScreens/RNScreens/RNScreens.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +55,22 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				896839F121ADE4DA00FB849D /* RNScreens */,
 				448078EF2114595900280661 /* RNSScreen.h */,
 				448078F42114595900280661 /* RNSScreen.m */,
 				448078F02114595900280661 /* RNSScreenContainer.h */,
 				448078F12114595900280661 /* RNSScreenContainer.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		896839F121ADE4DA00FB849D /* RNScreens */ = {
+			isa = PBXGroup;
+			children = (
+				896839F221ADE4ED00FB849D /* Info.plist */,
+				896839F321ADE4ED00FB849D /* RNScreens.h */,
+			);
+			path = RNScreens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
